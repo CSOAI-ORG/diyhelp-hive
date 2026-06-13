@@ -1,0 +1,19 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "diyhelp",
+    "description": "Home-DIY assistant (FLIP CANDIDATE).",
+    "version": "0.1.0",
+    "provider": "CSOAI-ORG",
+    "interfaces": [
+      {
+        "type": "a2a",
+        "url": "https://diyhelp.ai"
+      }
+    ],
+    "capabilities": [
+      "a2a-mesh",
+      "memoria-commit"
+    ]
+  }
+}
