@@ -1,0 +1,14 @@
+{
+  "name": "diyhelp.ai",
+  "title": "DIY Help — Home Improvement AI",
+  "description": "Your AI assistant for home improvement, DIY projects, and renovation guidance with step-by-step instructions.",
+  "cluster": "CONSUMER",
+  "servers": [
+        { "id": "diy-mcp.sov3.meok.ai", "url": "https://diy-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "project-mcp.sov3.meok.ai", "url": "https://project-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "materials-mcp.sov3.meok.ai", "url": "https://materials-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" }
+  ],
+  "registrar": "https://mcp-registry.sov3.meok.ai/register",
+  "protocol": "https://openMCP.ai/protocol",
+  "$schema": "https://openMCP.ai/schemas/mcp-server-list.json"
+}
